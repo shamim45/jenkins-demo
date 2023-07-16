@@ -1,0 +1,23 @@
+pipeline{
+
+agent {Docker {image:nginx}} 
+
+stages {
+
+stage('Deploy'){
+
+steps{
+ sh ' node --version'
+
+}
+
+}
+
+
+}
+
+
+
+
+
+}
