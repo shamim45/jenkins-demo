@@ -1,6 +1,6 @@
 pipeline{
 
-agent {Docker {image 'node:20-alpine3.17'}} 
+agent {docker {image 'node:20-alpine3.17'}} 
 
 stages {
 
